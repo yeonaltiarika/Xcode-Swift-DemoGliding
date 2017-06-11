@@ -39,6 +39,9 @@
 		D90011EC1EED998C00BDFEE3 /* Bindings3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D90011E71EED998C00BDFEE3 /* Bindings3.jpeg */; };
 		D90011ED1EED998C00BDFEE3 /* Bindings4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D90011E81EED998C00BDFEE3 /* Bindings4.jpeg */; };
 		D90011EE1EED998C00BDFEE3 /* Bindings5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D90011E91EED998C00BDFEE3 /* Bindings5.jpeg */; };
+		D90011F11EED9B1200BDFEE3 /* GlidingCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90011F01EED9B1200BDFEE3 /* GlidingCollection.swift */; };
+		D90011F31EED9B2000BDFEE3 /* GlidingConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90011F21EED9B2000BDFEE3 /* GlidingConfig.swift */; };
+		D90011F51EED9B3500BDFEE3 /* GlidingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90011F41EED9B3500BDFEE3 /* GlidingLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +79,9 @@
 		D90011E71EED998C00BDFEE3 /* Bindings3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bindings3.jpeg; sourceTree = "<group>"; };
 		D90011E81EED998C00BDFEE3 /* Bindings4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bindings4.jpeg; sourceTree = "<group>"; };
 		D90011E91EED998C00BDFEE3 /* Bindings5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bindings5.jpeg; sourceTree = "<group>"; };
+		D90011F01EED9B1200BDFEE3 /* GlidingCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlidingCollection.swift; sourceTree = "<group>"; };
+		D90011F21EED9B2000BDFEE3 /* GlidingConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlidingConfig.swift; sourceTree = "<group>"; };
+		D90011F41EED9B3500BDFEE3 /* GlidingLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlidingLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +195,9 @@
 		D90011EF1EED99C800BDFEE3 /* GlidingCollection */ = {
 			isa = PBXGroup;
 			children = (
+				D90011F01EED9B1200BDFEE3 /* GlidingCollection.swift */,
+				D90011F21EED9B2000BDFEE3 /* GlidingConfig.swift */,
+				D90011F41EED9B3500BDFEE3 /* GlidingLayout.swift */,
 			);
 			name = GlidingCollection;
 			sourceTree = "<group>";
@@ -290,7 +299,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90011F31EED9B2000BDFEE3 /* GlidingConfig.swift in Sources */,
 				D90011B51EED98ED00BDFEE3 /* FileManager.swift in Sources */,
+				D90011F51EED9B3500BDFEE3 /* GlidingLayout.swift in Sources */,
+				D90011F11EED9B1200BDFEE3 /* GlidingCollection.swift in Sources */,
 				D90011A51EED969500BDFEE3 /* ViewController.swift in Sources */,
 				D90011A31EED969500BDFEE3 /* AppDelegate.swift in Sources */,
 				D90011B71EED990B00BDFEE3 /* CollectionCell.swift in Sources */,
